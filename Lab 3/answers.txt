@@ -1,0 +1,26 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author: Mohammed Maruf Hossain
+ID: 169046996
+Email: hoss6996@mylaurier.ca
+Date: 2/7/2025  
+-------------------------------------------------------
+Answers for Lab 3
+-------------------------------------------------------
+
+Task 1:
+- The value of r3 when the loop is done:
+  - Signed Decimal: -1
+  - Hexadecimal: 0xFFFFFFFF
+
+Task 2:
+- The address of COUNTER in hexadecimal:
+  - The address of `COUNTER` in memory, obtained from CPUlator, is 0x2000 (may vary depending on memory layout).
+
+Task 3:
+- Effects of modifying LED_BITS and DELAY_TIME in memory:
+  - Changing `LED_BITS` alters the LED pattern displayed.
+  - Changing `DELAY_TIME` increases or decreases the time between LED shifts, affecting the blinking speed.
+
+-------------------------------------------------------
