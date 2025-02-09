@@ -1,0 +1,19 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author:  Mohammed Maruf Hossain
+ID:      169046996
+Email:   hoss6996@mylaurier.ca
+Date:    1/24/2025
+-------------------------------------------------------
+Answers for Lab 1
+-------------------------------------------------------
+
+Task 1
+Replacing `0xE` (hex) with `14` (decimal) does not change the behavior of the program because both values are equivalent. They represent the same numerical value in different notations. The program still correctly calculates the sum of `r0` (9) and `r1` (14) and stores the result in `r2` (23).
+
+Task 2
+Yes, it is legal to add the value of a register to itself (e.g., `r3 = r3 + r3`). After this operation, `r3` contains the value `16` because `8 + 8 = 16`.
+
+Task 3
+It is not legal to add two immediate values (e.g., `add r4, #4, #5`). ARM assembly does not allow two immediate operands in the `add` instruction. Replacing one of the operands with a register works. After modifying the code to use `add r4, r4, #5`, the operation is successful, and `r4` contains the value `9` (4 + 5).
